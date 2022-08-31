@@ -70,7 +70,7 @@ Put `img.twig` into your templates directory.
 			alt="{{ alt }}"
 			{% if loading != false %}loading="{{ loading }}"{% endif %}}}
 			{% if decoding != false %}decoding="{{ decoding }}"{% endif %}
-      {{ attributes }}
+			{{ attributes }}
 		>
 	</picture>
 {%- endif -%}
